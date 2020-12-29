@@ -1,0 +1,55 @@
+#content
+{
+color:white;
+  text-align:center;
+padding-top:25%;
+}
+
+body
+{
+  background:url(inga-shcheglova-iiFpGS2HBKo-unsplash~2.jpg);
+background-size:cover;
+background-position:centre;
+background-repeat:no-repeat;
+
+}
+
+h1
+{
+  font-family:"lato";
+  
+}
+
+h3
+{
+  font-family:"Courier prime";
+padding-bottom:5%;
+}
+
+.navbar-default.navbar-fixed-top
+{
+
+background:rgb(21,59,37,0.6);
+
+}
+.navbar .navbar-nav li a
+{
+color:white;
+font-weight:600;
+}
+.navbar .navbar-header .navbar-brand
+{
+  color:white;
+}
+.navbar .navbar-nav li a:hover
+{
+  color:#324f45;
+  background-color:white;
+}
+
+.btn
+{
+  height:5%;
+  width:20%;
+  border-radius:100px;
+}
