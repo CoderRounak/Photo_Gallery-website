@@ -1,0 +1,148 @@
+/* ------navbar----- **/
+.navbar-default.navbar-fixed-top
+{ 
+background:black;
+}
+
+.navbar .navbar-nav li a
+{
+color:white;
+font-weight:600;
+}
+
+.navbar .navbar-header .navbar-brand
+{ 
+color:white;
+}
+
+.navbar .navbar-nav li a:hover
+{ 
+color:black;
+background-color:white;
+}
+
+/* -------------------- **/
+*{
+   margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+
+
+
+.blurred-wrapper
+{
+  
+height:100vh;
+background:url(https://images.unsplash.com/photo-1533009818448-9da32131ba79?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bmVvbiUyMHByaXNtfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60);
+position:relative;
+z-index:1;
+overflow:hidden;
+animation:hue 10s infinite alternate;
+padding-top: 25%;
+}
+.blurred-wrapper::after
+{
+   content:"";
+width:100%;
+height:100%;
+background:inherit;
+position:absolute;
+top:0;
+left:0;
+z-index:-1;
+filter:blur(1rem);
+transform:scale(1.15);
+}
+
+@keyframes hue
+{
+  from{
+        filter: hue-rotate(0);
+      }
+  to{
+        filter: hue-rotate(360deg);   
+    }
+
+}
+
+/* ----------glassmorphism----------**/
+
+body
+{
+  color:white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+  font-family: "Libre Franklin";
+  font-weight: bold;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
