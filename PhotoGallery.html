@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photo Gallery</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="PhotoGallery.css">
+
+<link rel="stylesheet" type="text/css" href="lightbox.min.css">
+<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw==" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Yanone+Kaffeesatz:wght@400;462;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+ <div class="navbar-header">
+  <a href="LandingPage.html" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>  PhotoGallery
+  </a class="navbar-brand">
+ </div class="navbar-header">
+   
+ <ul class="nav navbar-nav">
+ <li>
+   <a href="AboutCreator.html">About Creator
+   </a>
+  </li>
+  <li>
+   <a href="LandingPage.html">Home
+   </a>
+  </li>
+ </ul>
+
+ <ul class="nav navbar-nav navbar-right">
+  <li>
+   <a href="SignUp.html">Sign-Up
+   </a>
+  </li>
+  <li>
+   <a href="LogIn.html">Log-In
+   </a>
+  </li>
+  <li>
+   <a href="ContactUs.html">Contact Us
+   </a>
+  </li>
+ </ul>
+</div>
+</nav class="navbar navbar-default">
+
+<div class="content">
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1609615042798-368749f0de6c?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery"> 
+          <img class="image" src="https://images.unsplash.com/photo-1609615042798-368749f0de6c?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+      <a href="https://images.unsplash.com/photo-1609618975368-0bf63851cb48?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1609618975368-0bf63851cb48?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+        
+      </div>
+    
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1609667732473-3c09bae4d4d0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1609667732473-3c09bae4d4d0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+     <a href="https://images.unsplash.com/photo-1609612006487-e6211790ece5?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1609612006487-e6211790ece5?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1609534767446-96f9d43c5bf4?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1609534767446-96f9d43c5bf4?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1609608935240-acbd613c4f71?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1609608935240-acbd613c4f71?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1608697005000-2be78a1f1023?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1608697005000-2be78a1f1023?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1515664952592-0891e0d5f2d0?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1515664952592-0891e0d5f2d0?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1601037055952-0651d4833621?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1601037055952-0651d4833621?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1559759708-d6e99b50f0e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGF0dGVybnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1559759708-d6e99b50f0e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGF0dGVybnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1565660372896-ce51e694eed0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fHBhdHRlcm58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1565660372896-ce51e694eed0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fHBhdHRlcm58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="imgdiv">
+        <a href="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHBhdHRlcm58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60" data-lightbox="mygallery">
+      <img class="image" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHBhdHRlcm58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60">
+      </a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<footer class="footer">
+
+</footer>
+</body>
+

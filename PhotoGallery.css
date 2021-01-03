@@ -1,0 +1,60 @@
+/* ------navbar----- **/
+.navbar-default.navbar-fixed-top
+{ 
+background:black;
+}
+
+.navbar .navbar-nav li a
+{
+color:white;
+font-weight:600;
+}
+
+.navbar .navbar-header .navbar-brand
+{ 
+color:white;
+}
+
+.navbar .navbar-nav li a:hover
+{ 
+color:black;
+background-color:white;
+}
+
+/* -------------------- **/
+
+
+.content 
+{
+  margin-top:15%;
+  margin-left:10%;
+  margin-right:10%;
+  
+  
+}
+.imgdiv
+{
+  background: rgb(0,0,0,0.4);
+  backdrop-filter:blured(2.5);
+  float:left;
+  padding: 15%;
+  border-radius: 5.5rem;
+  margin: 5%;
+ 
+}
+  
+  
+
+.image
+{
+  height:200px;
+  width:260px;
+  
+  border:black solid 2px;
+  border-radius:2.5rem;
+}
+
+body{
+  background:url(https://images.unsplash.com/photo-1435224654926-ecc9f7fa028c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60); 
+  background-attachment: fixed;
+} 
